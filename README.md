@@ -1,4 +1,4 @@
-# NFL Tracker
+# NFL Tracker APP
 Created By: Bruce Brown
 
 ## About
