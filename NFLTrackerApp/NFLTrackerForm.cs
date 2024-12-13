@@ -11,13 +11,14 @@ namespace NFLTrackerApp
 
     /// <summary>
     /// A C# WinForm application to display data for the current National Football League (NFL) season, teams, and players
-    /// by using the API-AMERICAN-FOOTBALL (1.4.7) API from API-SPORTS (https://v1.american-football.api-sports.io). The api key
+    /// by using the API-AMERICAN-FOOTBALL (1.4.7) API from API-SPORTS (https://v1.american-football.api-sports.io). The api key used
     /// is associated with the Mega plan tier option that allows up to 150,000 calls to the API each day. There is an option to view
-    /// a list of teams by division or conference, which allows the user to click on the team's image to get the teams data. On the team
+    /// a list of teams by division or conference, which allows the user to click on the team's image to get the team's data. On the team
     /// form there is information about the team and a few stats, as well as buttons to get the current roster, schedule, or current game
     /// data. There is error handling for when the API returns and error and when there is no data available for a team or player selected.
     /// Datagridviews are used to display the majority of the data and statistics received from the API calls. There is a help menu that 
-    /// provides information to the user about how to use the different forms. 
+    /// provides information to the user about how to use the different forms. A new developer cloning this application will need to get their
+    /// own API key to use with the application, which will need to be inserted in the 'key' variable in the NFLKey.cs class.
     /// </summary>
     /// 
 
